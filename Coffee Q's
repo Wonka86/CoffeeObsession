@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coffee Quiz</title>
+</head>
+<body><h1>Coffee Quiz</h1>
+	<!--Trying to write a quiz or maybe just peoples likes -->
+	<form>
+		<span> First Name:</span> <input type="text" name="firstname"><br>
+		Last Name: <input type="text" name="lastname"><br>
+		Birthday: <input type="date" name="Birthday"><br>
+		Gender: <br>
+		<input type="radio" name="Gender" value="Male">Male<br>
+		<input type="radio" name="Gender" value="Female">Female<br>
+		<input type="radio" name="Gender" value="Other">Other<br>
+
+		Your Favourite way to have coffee: <br>
+		<input type="checkbox" name="Americano"> Americano<br>
+		<input type="checkbox" name="Espresso"> Espresso<br>
+		<input type="checkbox" name="Latte"> Latte<br>
+		<input type="checkbox" name="Cappucino"> Cappucino<br>
+
+		Best place to relax with a coffee: <br>
+		<select>
+			<option value="Home" name="Home">Home</option>
+			<option value="Costa" name="Costa">Costa</option>
+			<option value="Starbucks" name="Starbucks">Starbucks</option>
+			<option value="Cafenero" name="Cafenero">Cafenero</option>
+
+		</select><br>
+		<input type="submit" value="Submit!">
+		<input type="reset">
+	</form>
+
+
+		<a href="CoffeeObsession.html"><h4>Go Back</h4></a>
+
+</body>
+</html>
